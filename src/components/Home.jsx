@@ -1,17 +1,6 @@
-import React from 'react';
+import React from "react";
+import { withTheme } from "../theme";
 
-const formatName = user => `${user.firstName} ${user.lastName}`;
+const Home = props => <h1>Hello, {props.theme.name}!</h1>;
 
-const user = {
-  firstName: 'John',
-  lastName: 'Doe'
-};
-
-const Home = () => (
-  <div>
-    <h1>Hello, {formatName(user)}!</h1>
-  </div>
-)
-
-
-export default Home;
+export default withTheme(Home);
