@@ -1,6 +1,7 @@
 import React from "react";
+import defaultTheme from './defaultTheme'
 
-const ThemeContext = React.createContext({ name: "Ethereal UI" });
+const ThemeContext = React.createContext(defaultTheme);
 
 const { Provider: ThemeProvider, Consumer: ThemeConsumer } = ThemeContext;
 
