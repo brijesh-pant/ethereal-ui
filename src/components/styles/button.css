@@ -1,0 +1,10 @@
+button {
+    padding: 10px;
+    background: rgba(46, 139, 87, 0.5);
+    border: 1px solid rgb(46, 139, 87);
+    text-align: center;
+}
+  
+.title {
+    color: blueviolet;
+}

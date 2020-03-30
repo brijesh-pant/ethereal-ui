@@ -1,17 +1,11 @@
 import React from 'react';
 
-const formatName = user => `${user.firstName} ${user.lastName}`;
-
-const user = {
-  firstName: 'John',
-  lastName: 'Doe'
-};
+import Button from './elements/Button';
 
 const Home = () => (
   <div>
-    <h1>Hello, {formatName(user)}!</h1>
+    <Button>Press me!</Button>
   </div>
 )
-
 
 export default Home;
