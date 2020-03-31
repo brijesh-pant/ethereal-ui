@@ -1,10 +1,15 @@
-button {
-    padding: 10px;
-    background: rgba(46, 139, 87, 0.5);
-    border: 1px solid rgb(46, 139, 87);
+.button {
+    background-color: #d8d8d8;
+    color: #151515;
+    font-family: var(--font-family);
+    cursor: pointer;
     text-align: center;
-}
-  
-.title {
-    color: blueviolet;
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    letter-spacing: .3rem;
+    padding: 0 3rem;
+    white-space: nowrap;
 }

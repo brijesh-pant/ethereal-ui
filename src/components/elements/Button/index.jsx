@@ -5,7 +5,7 @@ import styles from '../../styles/button.css';
 
 function Button(props) {
     return (
-        <button className={styles.title}>
+        <button className={styles.button}>
             {props.children}
         </button>
     )

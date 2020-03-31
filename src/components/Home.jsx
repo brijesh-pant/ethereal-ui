@@ -1,10 +1,12 @@
 import React from 'react';
 
+import '!style-loader!css-loader!./styles/theme.css'
+
 import Button from './elements/Button';
 
 const Home = () => (
   <div>
-    <Button>Press me!</Button>
+    <Button>Default button</Button>
   </div>
 )
 
