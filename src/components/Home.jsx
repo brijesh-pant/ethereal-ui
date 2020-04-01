@@ -1,17 +1,20 @@
 import React from 'react';
 
-const formatName = user => `${user.firstName} ${user.lastName}`;
+import '!style-loader!css-loader!./styles/theme.css'
 
-const user = {
-  firstName: 'John',
-  lastName: 'Doe'
-};
+import Button from './elements/Button';
 
 const Home = () => (
   <div>
-    <h1>Hello, {formatName(user)}!</h1>
+    <Button>Default button</Button>
+    <Button color='primary'>Primary button</Button>
+    <Button color='stroke'>Stroke button</Button>
+    <hr/>
+    <Button size='small'>Small</Button>
+    <Button size='large'>Large</Button>
+    <hr/>
+    <Button disabled color='primary'>Disabled</Button>
   </div>
 )
-
 
 export default Home;
