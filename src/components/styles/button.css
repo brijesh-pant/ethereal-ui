@@ -1,4 +1,4 @@
-.button {
+button {
     background-color: var(--color-default);
     border: 0.1rem solid var(--color-default);
     color: var(--color-primary);
@@ -15,35 +15,35 @@
     white-space: nowrap;
 }
 
-.primary {
+.color-primary {
     background-color: var(--color-primary);
     border: 0.1rem solid var(--color-primary);
     color: #FFFFFF;
 }
 
-.primary:hover {
+.color-primary:hover {
     background-color: #33998a;
     border-color: #33998a;
 }
 
-.stroke {
+.color-stroke {
     background-color: var(--color-stroke);
     border: 0.1rem solid var(--color-primary);
     color: var(--color-primary);
 }
 
-.stroke:hover {
+.color-stroke:hover {
     background-color: var(--color-primary);
     color:  #FFFFFF;
 }
 
-.small {
+.size-small {
     font-size: 0.75rem;
     height: 4rem;
     line-height: 4rem;
 }
 
-.large {
+.size-large {
     font-size: 1.25rem;
     height: 6rem;
     line-height: 6rem;
