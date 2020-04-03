@@ -1,17 +1,16 @@
 {
   "presets": [
-    ["env", { 
+    ["@babel/preset-env", { 
       "targets": {
         "browsers": "last 2 versions"
       },
       "loose": true,
       "modules": false
     }],
-    "react",
-    "react-hmre"
+    "@babel/preset-react"
   ],
   "plugins": [
-    "babel-plugin-transform-class-properties",
-    "transform-object-rest-spread"
+    "transform-class-properties",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
