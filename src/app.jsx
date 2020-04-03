@@ -2,19 +2,19 @@ import './scss/style.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Home from './components/Home';
+import Example from '../example';
 
 const renderApplication = () => {
   ReactDOM.render(
-    <Home /> ,
+    <Example /> ,
     document.querySelector('#root')
   );
 }
 
-renderApplication(Home);
+renderApplication(Example);
 
 if (module.hot) {
-  module.hot.accept("./components/Home", () => {
+  module.hot.accept("../example", () => {
     renderApplication();
   });
 }
