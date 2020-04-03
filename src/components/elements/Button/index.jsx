@@ -1,12 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import cs from 'classnames'
 
-import ThemedComponent from '../../common/ThemedComponent';
+import ThemedComponent from '../../../hoc/ThemedComponent';
 
 import styles from '../../styles/button.css';
 
-function Button(props) {
+const Button = (props) => {
     return (
         <ThemedComponent as='button' styles={styles} {...props} />
     )

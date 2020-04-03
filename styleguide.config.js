@@ -1,8 +1,10 @@
 const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 const { version } = require('./package');
 
 module.exports = {
-	defaultExample: true,
+	title: 'Ethereal UI',
 	version,
 	webpackConfig: {
 		module: {
@@ -14,9 +16,19 @@ module.exports = {
 				},
 				{
 					test: /\.css$/,
-					loader: 'style-loader!css-loader',
+					use: ExtractTextPlugin.extract({
+						loader: 'css-loader',
+						options: {
+							importLoaders: 1,
+							modules: true,
+							localIdentName: "[name]__[local]___[hash:base64:5]" 
+						},
+					}),
 				},
 			],
 		},
+		plugins: [
+			new ExtractTextPlugin("bundle.css"),
+		],
 	},
 };
