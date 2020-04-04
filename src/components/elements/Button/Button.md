@@ -20,3 +20,7 @@
 ```jsx
 <Button disabled color='primary'>Disabled</Button>
 ```
+
+```jsx
+<Button isFullWidth color='primary'>Disabled</Button>
+```

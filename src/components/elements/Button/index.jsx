@@ -32,6 +32,7 @@ Button.propTypes = {
         'large',
     ]),
     disabled: PropTypes.bool,
+    isFullWidth: PropTypes.bool,
 }
 
 export default Button

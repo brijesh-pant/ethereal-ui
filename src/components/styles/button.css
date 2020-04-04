@@ -77,3 +77,7 @@ button {
     opacity: 0.6;
     pointer-events: none;
 }
+
+.isFullWidth {
+    width: 100%;
+}
