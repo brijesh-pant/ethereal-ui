@@ -6,6 +6,10 @@ const { version } = require('./package');
 module.exports = {
 	title: 'Ethereal UI',
 	version,
+	ribbon: {
+		url: 'https://github.com/brijesh-pant/ethereal-ui',
+		text: 'Fork me on GitHub'
+	},
 	require: [path.join(__dirname, 'src/components/styles/theme.css')],
 	sections: [
 		{ name: 'Elements', components: 'src/components/elements/**/*.jsx' },

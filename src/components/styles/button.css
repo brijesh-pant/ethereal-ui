@@ -18,7 +18,7 @@ button {
 .color-primary {
     background-color: var(--color-primary);
     border: 0.1rem solid var(--color-primary);
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .color-primary:hover {
@@ -34,7 +34,31 @@ button {
 
 .color-stroke:hover {
     background-color: var(--color-primary);
-    color:  #FFFFFF;
+    color:  var(--color-white);
+}
+
+.color-info {
+    background-color: var(--color-info);
+    border: 0.1rem solid var(--color-info);
+    color: var(--color-white);
+}
+
+.color-success {
+    background-color: var(--color-success);
+    border: 0.1rem solid var(--color-success);
+    color: var(--color-white);
+}
+
+.color-warning {
+    background-color: var(--color-warning);
+    border: 0.1rem solid var(--color-warning);
+    color: var(--color-white);
+}
+
+.color-danger {
+    background-color: var(--color-danger);
+    border: 0.1rem solid var(--color-danger);
+    color: var(--color-white);
 }
 
 .size-small {

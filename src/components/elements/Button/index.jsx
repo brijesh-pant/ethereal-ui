@@ -11,9 +11,26 @@ const Button = (props) => {
     )
 }
 
+Button.defaultProps = {
+    color: 'default',
+    size: 'medium',
+}
+
 Button.propTypes = {
-    color: PropTypes.string,
-    size: PropTypes.string,
+    color: PropTypes.oneOf([
+        'default',
+        'primary',
+        'stroke',
+        'success',
+        'info',
+        'warning',
+        'danger',
+    ]),
+    size: PropTypes.oneOf([
+        'small',
+        'medium',
+        'large',
+    ]),
     disabled: PropTypes.bool,
 }
 
