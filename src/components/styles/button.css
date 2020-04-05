@@ -9,6 +9,7 @@ button {
     letter-spacing: .2rem;
     line-height: 5rem;
     margin: 0 1em;
+    outline: none;
     padding: 0 2em;
     text-align: center;
     text-transform: uppercase;
@@ -80,4 +81,27 @@ button {
 
 .isFullWidth {
     width: 100%;
+}
+
+.iconAndLabelButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconAndLabelButton > .icon {
+    position: relative;
+}
+
+.iconAndLabelButton > .icon > svg{
+    line-height: inherit;
+    height: inherit;
+}
+
+.iconAndLabelButton > .rightIcon{
+    left: 2rem;
+}
+
+.iconAndLabelButton > .leftIcon{
+    right: 2rem;
 }
