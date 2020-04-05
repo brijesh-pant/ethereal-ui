@@ -9,6 +9,7 @@ button {
     letter-spacing: .2rem;
     line-height: 5rem;
     margin: 0 1em;
+    outline: none;
     padding: 0 2em;
     text-align: center;
     text-transform: uppercase;
@@ -18,7 +19,7 @@ button {
 .color-primary {
     background-color: var(--color-primary);
     border: 0.1rem solid var(--color-primary);
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 .color-primary:hover {
@@ -34,7 +35,31 @@ button {
 
 .color-stroke:hover {
     background-color: var(--color-primary);
-    color:  #FFFFFF;
+    color:  var(--color-white);
+}
+
+.color-info {
+    background-color: var(--color-info);
+    border: 0.1rem solid var(--color-info);
+    color: var(--color-white);
+}
+
+.color-success {
+    background-color: var(--color-success);
+    border: 0.1rem solid var(--color-success);
+    color: var(--color-white);
+}
+
+.color-warning {
+    background-color: var(--color-warning);
+    border: 0.1rem solid var(--color-warning);
+    color: var(--color-white);
+}
+
+.color-danger {
+    background-color: var(--color-danger);
+    border: 0.1rem solid var(--color-danger);
+    color: var(--color-white);
 }
 
 .size-small {
@@ -52,4 +77,31 @@ button {
 .disabled {
     opacity: 0.6;
     pointer-events: none;
+}
+
+.isFullWidth {
+    width: 100%;
+}
+
+.iconAndLabelButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconAndLabelButton > .icon {
+    position: relative;
+}
+
+.iconAndLabelButton > .icon > svg{
+    line-height: inherit;
+    height: inherit;
+}
+
+.iconAndLabelButton > .rightIcon{
+    left: 2rem;
+}
+
+.iconAndLabelButton > .leftIcon{
+    right: 2rem;
 }
