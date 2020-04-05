@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);:root {
+	--color-white: #FFFFFF;
+	--color-default: #d8d8d8;
+	--color-primary: #151515;
+	--color-stroke: transparent;
+	--color-info: #387fb2;
+	--color-success: #a2c522;
+	--color-warning: #d1b726;
+	--color-danger: #dd4043;
+    --font-family: 'Montserrat', sans-serif;
+
+}
+
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-weight: normal;
+}button {
+    background-color: var(--color-default);
+    border: 0.1rem solid var(--color-default);
+    color: var(--color-primary);
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    height: 5rem;
+    letter-spacing: .2rem;
+    line-height: 5rem;
+    margin: 0 1em;
+    outline: none;
+    padding: 0 2em;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.button__color-primary___2Fpwt {
+    background-color: var(--color-primary);
+    border: 0.1rem solid var(--color-primary);
+    color: var(--color-white);
+}
+
+.button__color-primary___2Fpwt:hover {
+    background-color: #33998a;
+    border-color: #33998a;
+}
+
+.button__color-stroke___23VaJ {
+    background-color: var(--color-stroke);
+    border: 0.1rem solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.button__color-stroke___23VaJ:hover {
+    background-color: var(--color-primary);
+    color:  var(--color-white);
+}
+
+.button__color-info___3Ubvw {
+    background-color: var(--color-info);
+    border: 0.1rem solid var(--color-info);
+    color: var(--color-white);
+}
+
+.button__color-success___2gAHz {
+    background-color: var(--color-success);
+    border: 0.1rem solid var(--color-success);
+    color: var(--color-white);
+}
+
+.button__color-warning___1ydre {
+    background-color: var(--color-warning);
+    border: 0.1rem solid var(--color-warning);
+    color: var(--color-white);
+}
+
+.button__color-danger___1BwO8 {
+    background-color: var(--color-danger);
+    border: 0.1rem solid var(--color-danger);
+    color: var(--color-white);
+}
+
+.button__size-small___2NDK- {
+    font-size: 0.75rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.button__size-large___2Ss67 {
+    font-size: 1.25rem;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.button__disabled___5_1te {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.button__isFullWidth___24NjO {
+    width: 100%;
+}
+
+.button__iconAndLabelButton___X3qjg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__iconAndLabelButton___X3qjg > .button__icon___322Hc {
+    position: relative;
+}
+
+.button__iconAndLabelButton___X3qjg > .button__icon___322Hc > svg{
+    line-height: inherit;
+    height: inherit;
+}
+
+.button__iconAndLabelButton___X3qjg > .button__rightIcon___f-sro{
+    left: 2rem;
+}
+
+.button__iconAndLabelButton___X3qjg > .button__leftIcon___1rhkP{
+    right: 2rem;
+}span {
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+}
+
+svg {
+    width: 4rem;
+    height: 4rem;
+    padding: 0 1em;
+}
+
+svg path {
+    fill: var(--color-default);
+}
+
+.icon__color-primary___14Dzx path {
+    fill: var(--color-primary);
+}
+
+.icon__size-small___1phkD svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon__size-large___3h8ca svg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon__disabled___13KRV svg {
+    opacity: 0.6;
+    pointer-events: none;
+}
