@@ -5,6 +5,7 @@ span {
 }
 
 svg {
+    box-sizing: content-box;
     width: 4rem;
     height: 4rem;
     padding: 0 1em;
