@@ -20,7 +20,7 @@ const mapPropsToStyles = (props = {}, styles = {}) => {
         return { ...mappedStyles, [styles[className]]: true };
       }, {});
       
-      return mappedClassNames;
+      return cs(styles.root, mappedClassNames);
 }
 
 export default function ThemedComponent({ as = 'div', className, styles = {}, children, ...props }) {
