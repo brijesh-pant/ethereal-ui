@@ -1,0 +1,50 @@
+.root {
+    font-family: "montserrat-bold", sans-serif;
+	color: #151515;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
+}
+
+.is-h3, .is-h4 {
+	margin-bottom: 1.8rem;
+}
+
+.is-h5, .is-h6 {
+	margin-bottom: 1.2rem;
+}
+
+.is-h1 {
+	font-size: 3.1rem;
+	line-height: 1.35;
+	letter-spacing: -.1rem;
+}
+
+.is-h2 {
+	font-size: 2.4rem;
+	line-height: 1.25;
+}
+
+.is-h3 {
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+.is-h4 {
+	font-size: 1.7rem;
+	line-height: 1.76;
+}
+
+.is-h5 {
+	font-size: 1.4rem;
+	line-height: 1.7;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+.is-h6 {
+	font-size: 1.3rem;
+	line-height: 1.85;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
