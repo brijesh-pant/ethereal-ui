@@ -1,27 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);:root {
-	--color-white: #FFFFFF;
-	--color-default: #d8d8d8;
-	--color-primary: #151515;
-	--color-stroke: transparent;
-	--color-info: #387fb2;
-	--color-success: #a2c522;
-	--color-warning: #d1b726;
-	--color-danger: #dd4043;
-    --font-family: 'Montserrat', sans-serif;
-
-}
-
-html {
-	font-size: 10px;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	height: 100%;
-}
-
-body {
-	font-weight: normal;
-}button {
+.button__root___2wSSq {
     background-color: var(--color-default);
     border: 0.1rem solid var(--color-default);
     color: var(--color-primary);
@@ -134,6 +111,7 @@ body {
 }
 
 svg {
+    box-sizing: content-box;
     width: 4rem;
     height: 4rem;
     padding: 0 1em;
@@ -160,4 +138,407 @@ svg path {
 .icon__disabled___13KRV svg {
     opacity: 0.6;
     pointer-events: none;
+}.heading__root___ZsVb4 {
+    font-family: "montserrat-bold", sans-serif;
+	color: #151515;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
+}
+
+.heading__is-h3___14v63, .heading__is-h4___FT-O0 {
+	margin-bottom: 1.8rem;
+}
+
+.heading__is-h5___OxCnx, .heading__is-h6___13VHP {
+	margin-bottom: 1.2rem;
+}
+
+.heading__is-h1___2pJ3y {
+	font-size: 3.1rem;
+	line-height: 1.35;
+	letter-spacing: -.1rem;
+}
+
+.heading__is-h2___2q9MT {
+	font-size: 2.4rem;
+	line-height: 1.25;
+}
+
+.heading__is-h3___14v63 {
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+.heading__is-h4___FT-O0 {
+	font-size: 1.7rem;
+	line-height: 1.76;
+}
+
+.heading__is-h5___OxCnx {
+	font-size: 1.4rem;
+	line-height: 1.7;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+.heading__is-h6___13VHP {
+	font-size: 1.3rem;
+	line-height: 1.85;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}/* =================================================================== 
+ *
+ *  01. reset
+ *  02. basic/base setup styles
+ *  03. grid
+ *  04. block grids
+ *  05. MISC
+ *
+ * =================================================================== */
+
+
+/* ===================================================================
+ *  01. reset - normalize.css v3.0.2 | MIT License | git.io/normalize
+ *
+ * ------------------------------------------------------------------- */
+ html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+
+/* ===================================================================
+ *  02. basic/base setup styles - (_basic.scss)
+ *
+ * ------------------------------------------------------------------- */
+html {
+    /* font-size: 62.5%; */
+    font-size: 10px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	word-wrap: break-word;
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: none;
+}
+
+body,
+input,
+button {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* ------------------------------------------------------------------- 
+ * Media - (_basic.scss)
+ * ------------------------------------------------------------------- */
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+/* -------------------------------------------------------------------
+ * Typography resets - (_basic.scss)
+ * ------------------------------------------------------------------- */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	-webkit-font-variant-ligatures: common-ligatures;
+	-moz-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	text-rendering: optimizeLegibility;
+}
+em, i {
+	font-style: italic;
+	line-height: inherit;
+}
+strong, b {
+	font-weight: bold;
+	line-height: inherit;
+}
+small {
+	font-size: 60%;
+	line-height: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+li {
+	display: block;
+}
+
+/* -------------------------------------------------------------------
+ * links - (_basic.scss)
+ * ------------------------------------------------------------------- */
+a {
+	text-decoration: none;
+	line-height: inherit;
+}
+
+a img {
+	border: none;
+}
+
+/* -------------------------------------------------------------------
+ * inputs - (_basic.scss)
+ * ------------------------------------------------------------------- */
+fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+:root {
+	--color-white: #FFFFFF;
+	--color-default: #d8d8d8;
+	--color-primary: #151515;
+	--color-stroke: transparent;
+	--color-info: #387fb2;
+	--color-success: #a2c522;
+	--color-warning: #d1b726;
+	--color-danger: #dd4043;
+    --font-family: 'Montserrat', sans-serif;
+
 }
