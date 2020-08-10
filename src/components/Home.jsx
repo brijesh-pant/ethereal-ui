@@ -1,8 +1,7 @@
-import '!style-loader!css-loader!./styles/theme.css'
+import "!style-loader!css-loader!./styles/theme.css";
 
 // Elements
-import Button from './elements/Button';
+import Button from "./elements/Button";
+import Input from "./elements/Input";
 
-export {
-  Button
-};
+export { Button, Input };
